@@ -1,0 +1,251 @@
+	body
+	{
+		width: 100%;
+		min-width: 1000px;
+		max-width: 2000px;
+		margin: 0 auto;
+		background-image: url("pix/b.jpg");
+		font-size: 13px;
+		color:#333
+	}
+
+	h1
+	{
+		font-size:55px;
+	}
+
+	h2
+	{
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+		font-size:25px;
+	}
+	
+	h3
+	{
+		text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+
+	}
+	
+	h4
+	{
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+		font-size:25px;
+	}
+	
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; }
+	a:active { text-decoration: none; }	
+	
+
+	hr
+	{
+		 border: 1px dashed;
+	}
+
+
+
+	header
+	{
+		vertical-align: middle;
+		width: 100%;
+		float: left;
+		margin: 0 auto;
+		color: #d1dbe4;
+		text-shadow: 0 0 3px #01FF05, 0 0 5px #0F00FF;
+		border-radius: 10px;
+		border: 1px solid #ebebeb;
+		margin: 2px;
+		
+	}
+	
+	#cube_img
+	{
+		width:120px;
+		
+	}
+	
+
+	#logo_img
+	{
+		height:150px;	
+	}
+
+	nav
+	{
+		width: 100%;
+		float: left;
+		margin: 0 auto;
+		border-radius: 2px;
+		margin: 1px;
+	}
+
+
+	#contentliquid
+	{
+		float: left;
+		width: 100%;
+	}
+
+	#contentwrap
+	{
+		width: 68%;
+		margin-left: 16%;
+		float: left;
+	}
+
+	main
+	{
+		border-radius: 10px;
+		margin: 5px;
+	}
+
+
+	#leftcolumnwrap
+	{
+	    width: 15%;
+	    margin-left:-99.7%;
+	    float: left;
+	}
+
+	
+
+
+	#rightcolumnwrap
+	{
+		width: 15%;
+		margin-left: -15%;
+		float: left;
+	}
+
+	.turn
+	{	
+		background-color:	#062b0945;
+		font-size: 25px;
+		margin: 5px;
+		border: 3px solid #98D7C2;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+	}
+	
+	.no_turn
+	{	
+		background-color:#04020a00;
+		font-size: 25px;
+		margin: 5px;
+		border: 3px solid #98D7C2;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+	}
+	
+
+	#footerwrap
+	{
+		
+	    width: 100%;
+	    float: left;
+	    margin: 0 auto;
+	    clear: both;
+	}
+
+	footer
+	{
+		font-size: 20;
+		font-family: cabin;
+		color:black;
+		font-weight:bolder;
+	}
+
+		a.new_game
+	{
+		background: linear-gradient(to right,#196BCA ,#6433E0);
+		background-color: #196BCA;
+		color: #fff;
+		font-family: Trebuchet MS;
+		font-size: 18px;
+		font-weight: 800;
+		font-style: normal;
+		text-decoration: none;
+		padding: 10px 13px;
+		border: 4px solid #000000;
+		border-radius: 10px;
+		display: inline-block;
+	}
+	
+	a.new_game:hover
+	{
+		background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+		background-color: #5482d0;
+	}
+	a.new_game:active
+{
+		transform: scale(0.95);
+	}
+
+
+
+
+	
+	button.card_hide
+	{
+		width:140px;
+		height:85px;
+		border-width:4px;
+		color:#fff;
+		border-color:#18ab29;
+		border-top-left-radius:12px;
+		border-top-right-radius:12px;
+		border-bottom-left-radius:12px;
+		border-bottom-right-radius:12px;
+		text-shadow: 1px -50px 0px #2f6627;
+		background:#44c767;
+  		margin: 4px 2px;
+		transition-duration: 0.69s;
+
+	}
+
+
+	button.card_hide:hover
+	{
+	  background: rgba(59, 175, 90, 1);
+	}
+
+	button.card_hide:active 
+	{
+		background-color: #2D8143;
+		box-shadow: 0 2px #666;
+		transform: translateY(2px);
+	}
+
+
+
+	.card_show1
+	{
+		width:140px;
+		height:85px;
+		border-width:4px;
+		color:#196BCA;
+		border-color:#18ab29;
+		border-top-left-radius:12px;
+		border-top-right-radius:12px;
+		border-bottom-left-radius:12px;
+		border-bottom-right-radius:12px;
+		margin: 4px 2px;
+	}
+	
+	button.card_show2
+	{
+		width:140px;
+		height:85px;
+		border-width:4px;
+		color:#98D7C2;
+		border-color:#18ab29;
+		border-top-left-radius:12px;
+		border-top-right-radius:12px;
+		border-bottom-left-radius:12px;
+		border-bottom-right-radius:12px;
+		margin: 4px 2px;
+	}
+	

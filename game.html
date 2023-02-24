@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="game.css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="game.js"></script>
+	
+	
+	<title>MEMORY GAME</title>
+</head>
+
+
+
+<body>
+	<header>
+		<center>
+			<img src="pix/cube.png" id="cube_img">
+			<img src="pix/logo.png" id="logo_img">
+			<img src="pix/cube2.png" id="cube_img">
+			<br/><hr/>
+		</center>
+  </header>
+
+	<nav>
+		<center>
+
+		<a class="new_game" href="#">NEW GAME</a>	
+		<br/><hr/>
+
+	</center>
+	</nav>
+
+
+	
+	
+
+  <div id="contentliquid">
+
+		<div id="contentwrap">
+			<main>
+					<section id="game_pad">
+					
+						<center>
+							<div id ="row1">
+		 				    <button id="1x1" class="card_hide"></button> .
+						    <button id="1x2" class="card_hide"></button>.	
+							<button id="1x3" class="card_hide"> </button>.	
+						    <button id="1x4" class="card_hide"></button>.	
+						    <button id="1x5" class="card_hide"></button>
+							<br/>
+						   </div>
+						   
+							<div id ="row2">
+							<button id="2x1" class="card_hide"></button> .	
+							<button id="2x2" class="card_hide"></button>.	
+							<button id="2x3" class="card_hide"> </button>.	
+							<button id="2x4" class="card_hide"></button>.	
+							<button id="2x5" class="card_hide"></button>
+							<br/>
+							</div>
+						   
+						   
+							<div id ="row3">
+							<button id="3x1" class="card_hide"></button> .	
+							<button id="3x2" class="card_hide"></button>.	
+							<button id="3x3" class="card_hide"></button>.	
+							<button id="3x4" class="card_hide"></button>.	
+							<button id="3x5" class="card_hide"></button>
+							<br/>
+							</div>
+							
+							
+							<div id ="row4">
+							<button id="4x1" class="card_hide"></button> .
+							<button id="4x2" class="card_hide"></button>.
+							<button id="4x3" class="card_hide"> </button>.
+							<button id="4x4" class="card_hide"></button>.
+							<button id="4x5" class="card_hide"></button>
+							<br/>
+							</div>
+						
+						
+							<div id ="row5">
+							<button id="5x1" class="card_hide"></button> .	
+							<button id="5x2" class="card_hide"></button>.
+							<button id="5x3" class="card_hide"> </button>.	
+							<button id="5x4" class="card_hide"></button>.	
+							<button id="5x5" class="card_hide"></button>
+							<br/>
+							</div>
+						
+							<div id ="row6">
+							<button id="6x1" class="card_hide"></button> .	
+							<button id="6x2" class="card_hide"></button>.	
+							<button id="6x3" class="card_hide"> </button>.	
+							<button id="6x4" class="card_hide"></button>.	
+							<button id="6x5" class="card_hide"></button>
+							</div>
+							
+						</center>
+				
+					</section>
+					<br/>
+
+			</main>
+		</div>
+	</div>
+
+
+    <div id="leftcolumnwrap">
+		<aside id="p1" class="turn">
+		<center>
+		
+			<h3> PLAYER 1 <br/> </h3>
+			<table>
+			<tr>
+			<td><h2> MOVES : </h2></td>
+			<td><h4 id="p1moves">	0	</h4></td>
+			</tr>
+			
+			<tr>
+			<td><h2> SCORE : </h2></td>
+			<td><h4 id="p1matches">  0	</h4></td>
+			</tr>
+			</table>
+			<hr/>
+		</center>
+		</aside>
+
+    </div>
+
+
+    <div id="rightcolumnwrap">
+		<aside id="p2" class="no_turn">
+			
+			<center>
+			
+			<h3> PLAYER 2 <br/> </h3>
+			<table>
+			<tr>
+			<td><h2> MOVES : </h2></td>
+			<td><h4 id="p2moves">	0	</h4></td>
+			</tr>
+			
+			<tr>
+			<td><h2> SCORE : </h2></td>
+			<td><h4 id="p2matches">  0	</h4></td>
+			</tr>
+			</table>
+				<hr/>
+			</center>
+			</aside>
+		</aside>
+    </div>
+
+
+		<div id="footerwrap">
+		<footer>
+			<p>
+			<center>
+			
+				© ALL RIGHTS RESERVED TO NIKITA AND AVI ©</p>
+				 <audio controls>
+					  <source src="pix/boom.mp3" type="audio/ogg">
+					Your browser does not support the audio element.
+				</audio> 
+			</center>
+
+		</footer>
+		</div>	
+		
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
