@@ -1,8 +1,3 @@
-// webdev ex# 3
-// 
-// id:		208783209	,	321976250			
-
-
 
 let p1moves = 0;
 let p1matches = 0;
